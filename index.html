@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Food</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand section-title m-0 fs-2 text-light">Japanese Food</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-japanese" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre Japanese Food
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Nossos Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-japanese">
+            <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="https://i0.wp.com/www.rgstur.com/wp-content/uploads/2016/06/tao-temakeria-topo.jpg?fit=1920%2C760&ssl=1" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="https://portaldeinverno.com.br/wp-content/uploads/2022/10/jardim-japones-de-buenos-aires.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="https://www.exporlux.pt/storage/files/original/1920X760_CAFE_DARWIN_4_622b60c56f485.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="https://portaldeinverno.com.br/wp-content/uploads/2018/02/japao-kyoto-1.jpg" alt="">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5 cor-fundo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="d-block w-100 rounded-5" src="https://images.pexels.com/photos/2814828/pexels-photo-2814828.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title">Sobre o <span class="text-colored">Restaurante</span></h2>
+                            <p>
+                                A nossa comida japonesa aguça os paladares de pessoas do mundo todo. Preparada de maneira minuciosa e com visual encantador, esta culinária apresenta uma grande variedade de pratos e sabores únicos.<br>Considerada bastante saudável, a comida japonesa é composta por ingredientes ricos em nutrientes e nem sempre consumidos no dia a dia dos brasileiros. O menu é bastante vasto, mas existem algumas receitas que se tornaram mais famosas no Brasil.
+                            </p>
+                            <h3 class="section-title">Sobre o <span class="text-colored">Espaço</span></h3>
+                            <p>
+                                O espaço é minimalista e elegante, com elementos tradicionais japoneses, como lanternas de papel, bambu, tatames, quadros decorativos com caligrafia japonesa e arranjos de flores ikebana.<br>Temos áreas de assentos tradicionais, como tatames, bem como áreas com mesas e cadeiras ocidentais para atender a diferentes preferências de clientes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pt-5 pb-5">Para todas as <span class="text-colored">Ocasiões</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="https://1.bp.blogspot.com/-yLEI6baV7_M/Xj2cq4h6f4I/AAAAAAAAO18/CckJwTSzaCQYjJJLxkL9PREHLodwv3fHQCLcBGAsYHQ/s1600/festa_aniversario_tema_jap%25C3%25A3o%2B%25287%2529.jpg" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversários
+                        </h3>
+                        <p>
+                            🎉 Celebre Seu Aniversário em Grande Estilo! 🎉<br>
+                            Procurando o local perfeito para celebrar seu aniversário? Não procure mais! No Japanese Food, transformamos sonhos de aniversário em realidade. Seja qual for a sua idade ou estilo, temos o ambiente ideal para tornar o seu dia especial memorável.
+                        </p>
+                    </div>
+                    <div class="col-md-4 ">
+                        <img class="d-block w-100 rounded mb-2" src="https://i0.wp.com/traveltherapists.it/wp-content/uploads/2020/12/bonenkai-e-shinnenkai-traveltherapists-giappone-feste-dicembre-natale-capodanno-gruppo.jpg?fit=1242%2C991&ssl=1" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternizações
+                        </h3>
+                        <p>
+                            🌆Celebre com Estilo: Espaço para Confraternizações!🌆<br>
+                            Quer celebrar um evento especial, reunir colegas de trabalho ou amigos? No [Nome do Espaço para Confraternizações], tornamos suas confraternizações memoráveis e sem preocupações. Seja para festas de empresa, encontros de amigos ou qualquer outra ocasião, nosso espaço é o local perfeito para sua celebração.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="https://www.internovias.com.br/site2013/wp-content/uploads/2020/07/8-2.jpg" alt="">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Recepção para casamentos
+                        </h3>
+                        <p>
+                            💖 Celebre o Amor em um Cenário de Sonhos! 💖<br>
+                            O dia do seu casamento é um momento único, repleto de amor, alegria e promessas eternas. No Japanese Food, estamos dedicados a transformar seu sonho de casamento em realidade. Seja uma cerimônia íntima ou uma grande festa, nosso espaço é perfeito para tornar seu dia de casamento inesquecível.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cor-fundo" id="cardapio">
+            <div class="container">
+                <div class="row  pt-5 pb-5">
+                    <h2 class="text-center section-title">Nosso <span class="text-colored">Cardápio</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2"> 
+                        <nav class="nav nav-pills flex-colums nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Bebidas não alcoolicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcool" class="fw-bold text-start nav-link text-colored">Bebidas alcoolicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Entradas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Pratos Principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://coisasdojapao.com/wp-content/uploads/2017/08/ocha.jpg.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">CHÁ</h5>
+                                        <p>
+                                            O kombucha é uma bebida milenar de origem chinesa feita à base de chá, açúcar e uma cultura viva conhecida como scoby, sigla em inglês para Colônia Simbiótica de Bactérias e Leveduras.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.coisasdojapao.com/wp-content/uploads/2017/08/Royal-Milk-Tea-in-a-can-from-Japan.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">ROYAL MILK TEA</h5>
+                                        <p>
+                                            O “Royal milk tea” (“Chá de leite real”) japonês é diferente do “milk tea” encontrado em outros países. A diferença reside no processo de preparação. No milk tea, mergulha-se as folhas de chá na água quente e, por último, adiciona-se o leite. Já, no royal milk tea, coloca-se as folhas de chá e leite em uma panela para ferverem juntos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://coisasdojapao.com/wp-content/uploads/2017/08/free-biru.jpg.webp" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">CERVEJA SEM ÁLCOOL</h5>
+                                        <p>
+                                            Nos últimos anos, as cervejas sem álcool tem ganhado popularidade entre aqueles que querem aproveitar o sabor da bebida e os aspectos sociais de se beber cerveja sem terem qualquer efeito colateral.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.coisasdojapao.com/wp-content/uploads/2017/08/bebias-leite-soja.jpeg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2"> BEBIDAS À BASE DE LEITE DE SOJA</h5>
+                                        <p>
+                                            Devido a soja ser um dos produtos alimentícios básicos da culinária japonesa e por causa da prevalência de intolerância à lactose entre os asiáticos, as bebidas à base de leite de soja são bastante consumidas pelos japoneses.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="https://lh3.googleusercontent.com/-52exvt3pgNk/VxzimlPxzlI/AAAAAAAAOaQ/dOaIAWytJ78SG_CP-03zwtFymytV3BQzQCCo/s600/5%2Bbebidas%2Btradicionais%2Bjaponesas%2B-%2BAmazake%2B%2528www.sharp.co.jp%2529.jpg" alt="">
+                                        <h5 class="fw-bold text-color mt-2">Amazake</h5>
+                                        <p>
+                                            Amazake, também chamado de ama-saquê, é um vinho de arroz japonês doce, de teor alcoólico baixo, fabricado pela fermentação do arroz. É muito popular durante o Hina Matsuri, também conhecido como “Festival das Bonecas” ou “Festival das Meninas”, comemorado no dia 3 de março.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="https://lh3.googleusercontent.com/-GeAiR-B3gzU/Vx0AXlyHFkI/AAAAAAAAOcI/DNYFOoj1iLs5vo5Ne9Ic3JMWhpPUwhu4wCCo/s600/5%2Bbebidas%2Btradicionais%2Bjaponesas%2B-%2BShochu%2B%2528www.pref.nagasaki.jp%2529.jpg" alt="">
+                                        <h5 class="fw-bold text-color mt-2">Shochu</h5>
+                                        <p>
+                                            Shochu é uma bebida destilada típica do Japão. Costuma ser destilada a partir da cevada, batata doce ou arroz, e tem uma graduação alcoólica de cerca de 25% (menos que o uísque ou a vodca, porém mais que o vinho e o saquê).
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="https://lh3.googleusercontent.com/-TCWQMgs9Vok/VxzjiCPs-YI/AAAAAAAAOas/wE9_bXQ8m4UiSwUw-TEHWQFxAOwoFP88ACCo/s600/5%2Bbebidas%2Btradicionais%2Bjaponesas%2B-%2BAwamori%2B%2528okinawatravelinfo.com%2529.jpg" alt="">
+                                        <h5 class="fw-bold text-color mt-2">Awamori </h5>
+                                        <p>
+                                            Awamori é uma bebida destilada típica de Okinawa. Pode ser considerado um primo tropical do shochu e em termos de Ocidente, a bebida nos lembra a vodca, embora somente por conta da transparência, pois o sabor do Awamori é levemente mais áspero porém com um toque de doçura.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="https://lh3.googleusercontent.com/-LztZ5nO0GB4/Vx0D-g9dnEI/AAAAAAAAOcY/TzopFILE_ZoFNP81QWzjUQ0W0OQypwmewCCo/s600/5%2Bbebidas%2Btradicionais%2Bjaponesas%2B-%2BUmeshu%2B%2528tokyo.thenote.com.tw%2529.jpg" alt="">
+                                        <h5 class="fw-bold text-color mt-2">Umeshu</h5>
+                                        <p>
+                                            Umeshu ou vinho de ameixa é um dos mais populares licores japoneses. Ele é feito de saquê e ameixas japonesas, e tem um sabor muito doce e agradável.
+                                            alguns tipos de Umeshu tem chá verde ou limão adicionados. No total, existem cerca de 300 variedades da bebida disponíveis em todo o Japão.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="https://lh3.googleusercontent.com/-pIQOGRKmZwo/Vxznhk5g3hI/AAAAAAAAOa8/qOBVGDBvHUsgdvfv5WzpRuzziRbxQDtxQCCo/s600/5%2Bbebidas%2Btradicionais%2Bjaponesas%2B-%2BToso%2B%2528moogry.com%2529.jpg" alt="">
+                                        <h5 class="fw-bold text-color mt-2">Toso</h5>
+                                        <p>
+                                            Toso é uma bebida tradicional de Ano Novo no Japão. É feito a partir de uma mistura de muitas ervas tais como canela, ruibarbo, sanshou, Okera e kikyou. Trata-se de uma bebida cheia de superstições pois dizem que afasta doenças ao longo do ano, além de trazer harmonia para a família.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="https://www.djapa.com.br/wp-content/uploads/2020/02/trouxinha-de-salmao.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Trouxinha de salmão</h5>
+                                        <p>
+                                            Deguste uma massa fininha frita recheada com salmão e repolho
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="https://www.djapa.com.br/wp-content/uploads/2020/02/ceviche.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Ceviche</h5>
+                                        <p>
+                                            Prato composto por peixe fibroso marinado com suco de limão, mais cebola roxa, pimenta dedo de moça e molho especial.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="https://www.djapa.com.br/wp-content/uploads/2020/02/guioza.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Guioza</h5>
+                                        <p>
+                                            O prato é feito de massa fininha cozidas no vapor ou fritas, em formato de trouxinha e recheado com legumes ou carne bovina, cenoura e repolho.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="https://www.djapa.com.br/wp-content/uploads/2020/02/pasteis.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Pastéis</h5>
+                                        <p>
+                                            O Japenese Food tem quatro versões de minipastéis recheados de carne, queijo, escarola e shimeji.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="https://www.djapa.com.br/wp-content/uploads/2020/02/bolinhos.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Bolinhos</h5>
+                                        <p>
+                                            Para quem gosta dos salgados fritos, as opções são os bolinhos de bacalhau desfiado ou com recheio de salmão com cebola roxa e pimentões ou ainda a trouxinha de abóbora cabotiã.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="https://www.djapa.com.br/wp-content/uploads/2020/02/sunomono.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Sunomono</h5>
+                                        <p>
+                                            Poucos resistem à saborosa salada de pepinos cortados bem fininhos, regados generosamente com vinagre de arroz, açúcar, sal e sementes de gergelim.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="https://www.djapa.com.br/wp-content/uploads/2020/02/salada-massao.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Salada Massao</h5>
+                                        <p>
+                                            Para quem gosta das saladas para iniciar a refeição, o Japense Food prepara um mix de folhas, com cenoura e molho à base de maçã. O prato é finalizado com batata palha.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="w-100 d-block" src="https://www.djapa.com.br/wp-content/uploads/2020/02/vinagrete-de-lula.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Vinagrete de lula</h5>
+                                        <p>
+                                            Nesta opção, o fruto do mar é fatiado e acompanhado de tomate, pepino e cebola, tudo bem temperado com vinagre e azeite extravirgem.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="w-100 d-block" src="https://www.djapa.com.br/wp-content/uploads/2021/01/sushi.jpg" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Sushi</h5>
+                                        <p>
+                                            Esta típica comida japonesa é um bolinho de arroz enrolado com uma alga. O sushi traz diferentes ingredientes em seu interior, entre eles frutos do mar, peixe e vegetais. Como a variedade de sushi é bem grande, a iguaria pode ganhar outros nomes dependendo do recheio escolhido. A título de curiosidade, a palavra sushi significa “é azedo”.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="w-100 d-block" src="https://www.djapa.com.br/wp-content/uploads/2021/01/sashimi.jpg" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Sashimi</h5>
+                                        <p>
+                                            O prato traz tiras finas de peixe cru, geralmente salmão, atum e outros peixes. Não é consumido com arroz, mas pode ser acompanhado de alga, molho shoyu e wasabi. Sashimi significa carne perfurada (sashi = perfurada + mi = carne).
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="w-100 d-block" src="https://www.djapa.com.br/wp-content/uploads/2021/01/tempura.jpg" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Tempurá</h5>
+                                        <p>
+                                            De origem portuguesa, o tempurá se tornou um dos pratos clássicos da comida japonesa. A iguaria de massa fluida, feita à base de farinha de trigo e frita, pode ser composta apenas de legumes (cenoura, abóbora, berinjela, repolho, brócolis, entre outros) ou por frutos do mar, como camarão. Independentemente do recheio, o tempurá vem acompanhado de molho.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="w-100 d-block" src="https://www.djapa.com.br/wp-content/uploads/2021/01/guioza.jpg" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Guioza</h5>
+                                        <p>
+                                            O guioza (ou gyoza) é um pastel frito ou cozinho no vapor. É feito com uma massa bem fina com recheio de carne de porco moída ou legumes (repolho e cebolinha). O guioza geralmente é servido com molho shoyu. Dizem que, na verdade, o prato é originalmente chinês.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="w-100 d-block" src="https://www.djapa.com.br/wp-content/uploads/2021/01/temaki.jpg" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Temaki</h5>
+                                        <p>
+                                            Este cone feito de algas secas e crocantes caiu definitivamente no gosto dos brasileiros. Ele pode trazer os mais diferentes recheios, porém os mais comuns são atum, pepino, kani e salmão cru ou grelhado, todos com arroz. Para acompanhar, molho shoyu. Temaki é um tipo de sushi, sendo que “te” significa “mão” e “maki”, “enrolado”.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="w-100 d-block" src="https://www.djapa.com.br/wp-content/uploads/2021/01/missoshiru.jpg" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Missoshiru</h5>
+                                        <p>
+                                            Servida quente, antes do prato principal ou no café da manhã, a missoshiru é uma sopa feita à base de pasta de soja, dashi (caldo de peixe) e tofu. Algumas vezes pode conter legumes. A receita é servida em uma cumbuca, conhecida como ochawan. Missoshiru significa caldo de soja fermentada (misso é “soja fermentada” e shiru é “caldo”).
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="w-100 d-block" src="https://www.coisasdojapao.com/wp-content/uploads/2017/08/fruit-parfait.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">PARFAIT</h5>
+                                        <p>
+                                            Importada da França, esta sobremesa foi adaptada ao paladar japonês, tornando-se uma sobremesa muito comum. Basicamente, ele consiste em camadas de sorvete, granolas, chantilly, cobertos com frutas frescas. Existem muitas variantes de Parfait, podendo ser acrescentados biscoitos, bolos, waffle e variados doces tradicionais japoneses.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="w-100 d-block" src="https://www.coisasdojapao.com/wp-content/uploads/2017/08/Castella-.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">CASTELLA </h5>
+                                        <p>
+                                            Castella, ou kasutera em japonês, é um bolo japonês feito à base de farinha, ovos, açúcar e mel. Sua textura é leve e firme e seu sabor possui uma doçura suave. Ele foi originalmente introduzido pelos comerciantes portugueses no século XVI. Embora fabricado por todo o Japão, este é uma especialidade tradicional de Nagasaki.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="w-100 d-block" src="https://www.coisasdojapao.com/wp-content/uploads/2017/08/coffee.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">KOHI ZERI</h5>
+                                        <p>
+                                            Kohi Zeri, conhecido como Coffee Jelly (geléia de café) em inglês, é uma sobremesa japonesa muito comum, especialmente no verão. Ele é um simples prato de geleia aromatizada com café preto e açúcar. Geralmente, este doce é coberto com chantilly, sorvete de baunilha ou leite condensado.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="w-100 d-block" src="https://www.coisasdojapao.com/wp-content/uploads/2017/08/wagashi.jpeg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">WAGASHI </h5>
+                                        <p>
+                                            Wagashi são doces tradicionais japoneses que são geralmente servidos com chá, especialmente os tipos feitos de mochi, anko (doce de azuki) e frutas. Alguns exemplos são daifuku (mochi recheado com anko), dango (bolinho de arroz doce, geralmente espetado em um palito) e yōkan (sobremesa gelatinosa feita de azuki, ágar-ágar e açúcar).
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3 botao">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" name="nome" class="form-control">
+                            </div>
+                            <div class="mb-3 botao">
+                                <label for="email" class="form-label fw-bold text-colored">Seu E-mail</label>
+                                <input type="email" id="email" name="email" class="form-control">
+                            </div>
+                            <div class="mb-3 botao">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu Telefone</label>
+                                <input type="tel" id="telefone" name="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3 botao">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua Mensagem</label>
+                                <textarea id="mensagem" name="mensagem" class="form-control"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn fw-bold botaohover">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº 145, Bairro Bootstrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+
+    <script src="./main.js"></script>
+</body>
+</html>

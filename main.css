@@ -1,0 +1,72 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color:  #FF3333;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #FF3333;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, .text-color {
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #FF3333;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.nav-link-cardapio {
+    color: #fff;
+    background-color: #e98989;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #FF3333;
+    color: #fff;
+}
+
+#fale-conosco button:hover {
+    background-color: #fff;
+    color: #FF3333;
+}
+
+#fale-conosco textarea {
+    resize: none;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.text-colored {
+    color: #FF3333;
+}
+
+.cor-fundo {
+    background-color: #e98989;
+}
+
+.social-links li {
+    list-style: none;
+    display: flexbox;
+    margin-left: 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
